@@ -166,7 +166,7 @@
       <p style="font-size:12px">Arraste o dedo ou mouse para formar as palavras</p>
       <div id="word-grid"></div>
 
-      <div id="words" style="margin:20px 0; padding:10px; background:rgba(255,255,0.1); border-radius:8px;">
+      <div id="words" style="margin:20px 0; padding:10px; background:rgba(0,0,139.1); border-radius:8px;">
         <strong>Palavras para encontrar:</strong><br><br>
         <span id="word-list" style="line-height:1.8;"></span>
       </div>
@@ -199,11 +199,12 @@
     <section>
       <h2>👥 PARTICIPANTES</h2>
       <div class="participants">
-        <div class="card"><strong>Clarah Eduarda</strong><br>✦ Grupo A</div>
-        <div class="card"><strong>Cleber Eduardo</strong><br>✦ Grupo A</div>
-        <div class="card"><strong>Melissa Christine</strong><br>✦ Grupo A</div>
-        <div class="card"><strong>Nicolas Campos</strong><br>✦ Grupo A</div>
-        <div class="card"><strong>Seu Nome</strong><br>✦ Grupo B</div>
+        <div class="card"><strong>Clarah Eduarda</strong><br>✦ Grupo ✦ </div>
+        <div class="card"><strong>Cleber Eduardo</strong><br>✦ Grupo ✦ </div>
+        <div class="card"><strong>Melissa Christine</strong><br>✦ Grupo ✦ </div>
+        <div class="card"><strong>Nicolas Campos</strong><br>✦ Grupo ✦ </div>
+        <div class="card"><strong>Apolo Cesar</strong><br>✦ revisão de linhas ✦ </div>
+        <div class="card"><strong>Welen H.</strong><br>✦ hospedagem do site ✦  </div>
       </div>
     </section>
 
@@ -497,7 +498,7 @@
         a.classList.add('matched'); b.classList.add('matched');
         pairsFound++;
         document.getElementById('pairs').textContent = pairsFound;
-        if (pairsFound === 8) setTimeout(() => alert("🎉 Parabéns! Memória completa!"), 500);
+        if (pairsFound === 8) setTimeout(() => alert("🎉 Parabéns! sua memória está em dia! 😉"), 500);
         flippedCards = []; lockBoard = false;
       } else {
         lockBoard = true;
